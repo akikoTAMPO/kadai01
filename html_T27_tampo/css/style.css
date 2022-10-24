@@ -1,0 +1,414 @@
+/* ここから下に記載していく */
+
+html {
+    font-size: 62.5%;
+    /* 16px x 62.5% = 10px */
+}
+
+body {
+    color: #222222;
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    /* エメット：tac tab で▼ */
+    text-align: center;
+}
+
+/* ---------
+    header
+*----------- */
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 121px;
+    padding: 0 0 0 50px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    /* 上 | 右 | 下 | 左 */
+    margin: 0 25px 0 25px;
+    font-size: 2.4rem;
+}
+
+.nav__text{
+    color: initial;
+    text-decoration: none;
+}
+
+/* --------
+    mianbj
+------------- */
+.mv-image {
+    position: relative;
+}
+
+.mv-image__message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: #fff;
+}
+
+.mv-image__text {
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.mv-image__text_sub {
+    font-size: 2.4rem;
+}
+
+/* ---------
+    about
+*----------- */
+
+.about-wrapper {
+    /* width: 1200px; */
+    margin: auto;
+    padding: 60px 0;
+}
+
+.about__title {
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #ffd61a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about__title_jp {
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+
+.about__text {
+    margin: 0 0 40px;
+    line-height: 1.5;
+}
+
+.about__textend {
+    margin: 0 0 80px;
+    line-height: 1.5;
+}
+
+.about__images{
+    display: flex;
+}
+
+.about__image{
+    width: 25%;
+    margin: auto;
+}
+
+/* ---------
+    course
+*----------- */
+.course-wrapper{
+    /* width: 1200px; */
+    margin: auto;
+}
+
+.course__title {
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.course__heading {
+    margin: 0 0 60px;
+    line-height: 1.5;
+}
+
+.course_01{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 1200px;
+    background-color: #f2f2f2;
+}
+
+.course-image{
+    width: 50%;
+}
+
+.course-textspace{
+    width: 50%;
+}
+
+.course-textarea_01{
+    /* 上 | 右 | 下 | 左 */
+    padding: 0 0 0 50px;
+    width: 430px;
+}
+
+.course_02{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    width: 1200px;
+    background-color: #f2f2f2;
+}
+
+.course-textarea_02{
+    
+    padding: 0 50px 0 0;
+    width: 430px;
+}
+
+.content__title_01 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+.content__text_01 {
+    line-height: 1.5;
+}
+
+.content__title_02 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+.content__text_02 {
+    line-height: 1.5;
+}
+
+.content__title_03 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+.content__text_03 {
+    line-height: 1.5;
+}
+
+/* ---------
+    news
+*----------- */
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.news {
+    /* 上下 | 左右 */
+    padding: 60px 0;
+}
+
+.news__list {
+    width: 1020px;
+    display: flex;
+    margin: auto;
+}
+
+.news__item {
+    width: 300px;
+    /* 上 | 右 | 下 | 左 */
+    margin: 0 30px 60px 30px;
+}
+
+.news__title {
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    color: #ffd61a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.news__title_jp {
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+
+.news__eyecatch {
+    margin: 0 0 30px;
+}
+
+.news__date {
+    margin: 0 0 24px;
+}
+
+.news__heading {
+    line-height: 2.0;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+/* ---------
+    access
+*----------- */
+.access-wrapper {
+    /* ここにライトグレーつけたい     */
+    background: #e9e9e9;
+    padding: 60px 0;
+}
+
+.access__title {
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.access__title_jp {
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+
+.googlemap{
+    width: 100%;
+    height: 300px;
+    margin: 0 0 60px;
+
+}
+.access-detail-wrapper {
+    width: 648px;
+    margin: auto;
+}
+
+.access-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.access-detail {
+    width: 248px;
+    margin: 0 0 30px;
+}
+
+.access-item {
+    width: 400px;
+    margin: 0 0 30px;
+}
+
+/* ---------
+    contact
+*----------- */
+.contact {
+    padding: 60px 0 140px 0;
+}
+
+.contact__title {
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact__title_jp {
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+}
+
+.contact__text_01 {
+    margin: 0 0 30px;
+    line-height: 1.5;
+}
+
+.contact__text_02 {
+    margin: 0 0 70px;
+    line-height: 1.5;
+
+}
+
+.form-wrapper {
+    width: 640px;
+    margin: auto;
+}
+
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+}
+
+.form-title {
+    width: 240px;
+    padding: 8px 0 0 0;
+    margin: 8px 0;
+}
+
+.form-title.check-radio {
+    padding: 0;
+}
+
+.form-item {
+    width: 328px;
+    margin: 8px 0;
+}
+
+.form-parts {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #bfbfbf;
+}
+
+.form-label {
+    margin: 0 16px 0 0;
+}
+
+input[type*="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+    background-color: #dddddd;
+    border-radius: 30%;
+    vertical-align: -2px;
+}
+
+input[type*="radio"]:checked {
+    background-color: #696969;
+}
+
+.btn-submit {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+}
+
+/* ---------
+    footer
+*----------- */
+.footer {
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights {
+    color: #fff;
+}
